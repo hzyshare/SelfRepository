@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/toolBar"
+    android:background="@color/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    >
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/normal_text_styles"
+        android:layout_gravity="center"
+        android:text="小卖部"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"
+        />
+    <TextView
+        android:id="@+id/tv_more"
+        style="@style/normal_text_styles"
+        android:layout_gravity="end"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"
+        android:paddingRight="15dp"
+        />
+</android.support.v7.widget.Toolbar>
